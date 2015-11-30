@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<% @cards.each do |card| %>
+	<img src="<%=card.image%>"></img>
+	<p><figcaption><strong><%=card.value%></strong> of <%=card.suit%></figcaption></p>
+<% end %>
+</body>
+</html>
+
